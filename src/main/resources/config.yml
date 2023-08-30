@@ -1,0 +1,38 @@
+# language files are stored in the directory called language
+"language": "en_US"
+# main command name
+"command": joinitem
+# If keep_on_death is true, join items could be dropped if they are not locked.
+"keep_on_death": true
+# Trigger Type
+# 0 -> normal
+# 1 -> interact with blocks
+# 2 -> interact with air
+"trigger_type": 0
+# This cooldown aims at avoiding player to use too frequent.
+"cooldown_tick": 10
+# This is to avoid sending cooldown tips to player
+"send_cooldown_tip": false
+"items":
+  - "name": testName
+    "lore":
+      - lore1
+      - lore2
+      - lore3
+      - lore4
+    "id": "minecraft:iron_sword"
+    "meta": 0
+    "count": 1
+    # Inventory slot index. The index of hotbar slots ranges from 0 to 8
+    "slot": 0
+    # lock_type
+    # 0 -> None
+    # 1 -> Lock in slot
+    # 2 -> Lock in inventory
+    # Actually, we have already implemented item drop protection for join items.
+    # That is to say, this just serves as a decoration.
+    "lock_type": 0
+    # You can use "%player%" to refer to player name
+    "commands": []
+    # You can use "%player%" to refer to player name
+    "messages": []

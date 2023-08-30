@@ -1,0 +1,39 @@
+# 语言文件储存在language文件夹内
+"language": "en_US"
+# 主指令名
+"command": joinitem
+# 是否死亡掉落，不影响物品锁功能
+"keep_on_death": true
+# 触发条件
+# 0 -> 普通触发
+# 1 -> 与方块交互触发
+# 2 -> 与空气交互触发
+"trigger_type": 0
+# 使用冷却时间（单位tick）
+"cooldown_tick": 10
+# 是否将冷却中的提示发送给玩家
+"send_cooldown_tip": false
+"items":
+  - "name": testName
+    "lore":
+      - lore1
+      - lore2
+      - lore3
+      - lore4
+    "id": "minecraft:iron_sword"
+    "meta": 0
+    "count": 1
+    # Inventory slot index. The index of hotbar slots ranges from 0 to 8
+    # 槽位索引，快捷槽位索引是0-8（从左到右）
+    "slot": 0
+    # lock_type
+    # 物品锁类型
+    # 0 -> 无
+    # 1 -> 锁在物品槽
+    # 2 -> 锁在背包内
+    # 其实我们自带禁止掉落特殊物品，所以这个只是装饰用途。
+    "lock_type": 0
+    # 玩家变量 %player%
+    "commands": []
+    # 玩家变量 %player%
+    "messages": []

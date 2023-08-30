@@ -1,0 +1,6 @@
+main: glorydark.joinitem.JoinItemMain
+name: JoinItem-PNX
+version: "${pom.version}"
+api: 1.0.0
+author: Glorydark
+description: JoinItem-PNX
