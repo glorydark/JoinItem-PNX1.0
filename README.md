@@ -1,6 +1,6 @@
 # JoinItem
 
-## My words before achieving this repository
+## My words before archiving this repository
 **This repository will be archived.**
 
 It's a tough decision, but clearly, PNX 1.0 is going to be the past and PNX-2.0 and Allay is on the way. 
